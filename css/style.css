@@ -1,6 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Rubik", "Arial", sans-serif;
+    color: #434343;
+    line-height: 1.4;
+    transition: 0.3s ease;
+    margin: 0;
+}
+
 .header-section{
+    
     display: flex;
-    width: 96rem;
+    width: 2048px;
     height: 6.5625rem;
     flex-shrink: 0;
     background-color:#F6F6F6;
@@ -18,8 +31,23 @@
 
 .container{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .currency-rate{
+    margin-top: 40px;
     display: flex;
 }
+
+.currency-unit{
+    color: #2959CE;
+    font-family: Rubik;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 1.56rem;
+    text-decoration: none;
+}
+
