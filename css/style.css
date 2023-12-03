@@ -1,0 +1,25 @@
+.header-section{
+    display: flex;
+    width: 96rem;
+    height: 6.5625rem;
+    flex-shrink: 0;
+    background-color:#F6F6F6;
+}
+
+.site-header-logo-img{
+    width: 17.25rem;
+    height: 2.8125rem;
+    flex-shrink: 0;
+    border-radius: 0.4375rem;
+    background: #FFF;
+    margin-top: 1.87rem;
+    margin-left: 7.5rem;
+}
+
+.container{
+    display: flex;
+}
+
+.currency-rate{
+    display: flex;
+}
