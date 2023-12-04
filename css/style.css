@@ -11,7 +11,6 @@
 }
 
 .header-section{
-    
     display: flex;
     width: 2048px;
     height: 6.5625rem;
@@ -20,22 +19,44 @@
 }
 
 .site-header-logo-img{
+    color: #7296EE;
+    font-family: Rubik;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     width: 17.25rem;
-    height: 2.8125rem;
+    height: 50px;
     flex-shrink: 0;
     border-radius: 0.4375rem;
     background: #FFF;
-    margin-top: 1.87rem;
+    margin-top: 2.44rem;
+    margin-bottom: 2.38rem;
     margin-left: 7.5rem;
 }
 
+
 .container{
+    margin: 0;
+    padding-bottom: 100px;
+    margin-bottom: 3.99rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.currency-rate-item{
+    margin: 1.56rem;
+}
+
 .currency-rate{
+    margin-left: 2.56rem;
+    margin-right: 27.5rem;
+    margin-bottom: 2.37rem;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
     margin-top: 40px;
     display: flex;
 }
@@ -47,7 +68,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin: 1.56rem;
     text-decoration: none;
 }
 
