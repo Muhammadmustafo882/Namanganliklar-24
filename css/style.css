@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.body {
+.body{
     font-family: "Rubik", "Arial", sans-serif;
     color: #434343;
     line-height: 1.4;
@@ -12,7 +12,7 @@
 
 .header-section{
     display: flex;
-    width: 2048px;
+    width: 90rem;
     height: 6.5625rem;
     flex-shrink: 0;
     background-color:#F6F6F6;
