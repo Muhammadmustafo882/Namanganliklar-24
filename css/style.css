@@ -65,3 +65,30 @@
     text-decoration: none;
 }
 
+.toggler-lang{
+    border-radius: 2.4375rem;
+    background: #DCE6FF;
+    margin-left: 1.75rem;
+    padding: 3px;
+}
+
+.lang-toggler-active{
+    margin-bottom: 2.12rem;
+    text-decoration: none;
+    color: #000;
+    font-family: Rubik;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1.875rem;
+    height: 1.875rem;
+    flex-shrink: 0;
+    border-radius: 5px solid #fff;
+}
+
+.button{
+    margin-bottom: 2.12rem;
+    margin-left: 1.56rem;
+}
+
