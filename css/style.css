@@ -2,142 +2,99 @@
     box-sizing: border-box;
 }
 
-*:focus{
-    outline: 2px dotted #2959CE;
-    outline-offset: 3px;
+html{
+    height: 100%;
+    scroll-behavior: smooth;
 }
 
-.body{
-    font-family: "Rubik", "Arial", sans-serif;
-    color: #434343;
-    line-height: 1.4;
-    transition: 0.3s ease;
-    margin: 0;
-}
-
-.header-section{
+body{
     display: flex;
-    width: 97rem;
-    height: 6.5625rem;
-    flex-shrink: 0;
-    background-color:#F6F6F6;
+    background-color: #fff;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color:#4a4b4c;
+    font-family: "Rubik", 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
 }
-
-.site-header-logo-img{
-    margin-bottom: 9px;
-    color: #7296EE;
-    font-family: Rubik;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    width: 17.5rem;
-    height: 50px;
-    border-radius: 0.4375rem;
-    background: #FFF;
-    margin-left: 7.5rem;
-}
-
 
 .container{
+    width: 100%;
+    max-width: 1240px;
+    padding: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.header-section-top {
+    background-color: #f6f6f6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.header-section-top-container {
+    display: flex;
+    align-items: center;
+}
+
+.site-header-logo {
+    display: flex;
+    padding: 9px 6px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-right: 35px;
+}
+
+.site-header-logo:hover{
+    opacity: 0.8;
+}
+
+.site-header-logo:active{
+    opacity: 0.6;
+}
+.currency-rate {
+    display: flex;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.currency-rate-item{
-    margin: 1.56rem;
-}
-
-.currency-rate{
-    margin-left: 2.56rem;
-    margin-right: 27.5rem;
-    margin-bottom: 2.37rem;
-    justify-content: center;
-    align-items: center;
+    padding: 0;
     list-style: none;
-    text-decoration: none;
-    display: flex;
+    margin-right: auto;
+}
+.currency-rate-item {
+    color: #555;
+}
+
+.currency-rate-item: :not(:last-child){
+    margin-right: 25px;
 }
 
 .currency-unit{
     color: #2959CE;
-    font-family: Rubik;
-    font-size: 1rem;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
 }
 
-/* global search form */
-.global-search-form{
-    margin-right: 25px;
-}
-
-.global-search-form-input{
-    padding-left: 40px;
-    border: 0;
-    padding-top: 13px;
-    padding-right: 20px;
-    padding-bottom: 13px;
-    border-radius: 60px;
-    color: #8d8d8d;
-    font-family: Rubik;
-    font-size: 14px;
-}
-/* language toggler */
-
-.lang-toggler{
-    margin-right: 2.81rem;
-    border-radius: 2.4375rem;
-    background: #DCE6FF;
-    padding: 3px;
-}
-
-.lang-toggler-active{
-    padding: 4px;
-    margin-bottom: 2.12rem;
-    text-decoration: none;
-    color: #000;
-    font-family: Rubik;
-    font-size: 0.8125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background-color: #FFF;
-    border-radius: 50%;
-}
-
-.lang-toggler-link{
-    color: #a6a6a6;
-    text-decoration: none;
-    font-family: Rubik;
-    font-size: 0.8125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.button{
-    text-decoration: none;
-    color: #FFF;
-    font-family: Rubik;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.button-primary{
+.lang-toggler {
     display: flex;
-    width: 5.5625rem;
-    padding: 0.8125rem 1.25rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.625rem;
-    border-radius: 0.625rem;
-    background: #7296EC;
+    margin-right: 25px;
+    border-color: #DCE6FF;
+}
+.lang-toggler-link {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    color: #a6a6a6;
+    font-size: 13px;
+    border-radius: 50%;
+    line-height: 30px;
+}
+.lang-toggler-link-active {
+    background-color: #fff;
+    color: #000;
 }
 
+main{
+    flex-grow: 1;
+}
