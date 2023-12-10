@@ -36,6 +36,7 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .header-section-top-container {
     display: flex;
     align-items: center;
@@ -56,6 +57,7 @@ body{
 .site-header-logo:active{
     opacity: 0.6;
 }
+
 .currency-rate {
     display: flex;
     margin: 0;
@@ -63,11 +65,12 @@ body{
     list-style: none;
     margin-right: auto;
 }
+
 .currency-rate-item {
     color: #555;
 }
 
-.currency-rate-item: :not(:last-child){
+.currency-rate-item:not(:last-child){
     margin-right: 25px;
 }
 
@@ -81,6 +84,7 @@ body{
     margin-right: 25px;
     border-color: #DCE6FF;
 }
+
 .lang-toggler-link {
     text-align: center;
     width: 30px;
@@ -90,6 +94,7 @@ body{
     border-radius: 50%;
     line-height: 30px;
 }
+
 .lang-toggler-link-active {
     background-color: #fff;
     color: #000;
