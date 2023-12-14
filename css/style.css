@@ -202,6 +202,6 @@ body{
     border-radius: 8px;
 }
 
-main{
+.main-content{
     flex-grow: 1;
 }
