@@ -247,6 +247,9 @@ body{
     padding: 0;
     margin-bottom: 15px;
     color: #4a4b4c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
 }
 
 .article-card-img{
