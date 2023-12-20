@@ -135,23 +135,43 @@ body{
 
 .button{
     text-decoration: none;
-    color: #FFF;
-    font-family: Rubik;
+    color: #fff;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 13px, 20px;
 }
 
 .button-primary{
     border-radius: 10px;
-    background: #7296EC;
+    background-color: #7296EC;
+    color: #fff;
     display: flex;
     width: 89px;
     padding: 13px 20px;
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+.button:active{
+    opacity: 0.6;
+}
+
+.button-orange{
+    padding: 13px 20px;
+    background-color: #f7883b;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /* sitenav */
@@ -271,4 +291,21 @@ body{
 .article-card-source-time{
     color: #5E5F61;
     font-size: 12px;
+}
+
+.notifications-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffd7ba;
+    padding: 24px 70px 29px; 
+    margin: 60px 70px;
+    border-radius: 10px;
+}
+.notifications-cta-text {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
 }
