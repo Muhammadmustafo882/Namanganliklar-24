@@ -309,3 +309,36 @@ body{
     font-weight: 500;
     line-height: 26px;
 }
+
+.global-news {
+    width: 797px;
+}
+.global-news-heading {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+}
+.global-news-list {
+}
+.global-news-item {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.article-card-horizontal {
+    border-radius: 15px;
+    background-color: #f6f6f6;
+    padding: 20px 20px 20px 17px;
+}
+.article-card-title {
+}
+.news-grid-link {
+}
+.article-card-text {
+}
+.article-card-footer {
+}
+.article-source-icon {
+}
+.article-card-source-time {
+}
