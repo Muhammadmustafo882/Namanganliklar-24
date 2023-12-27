@@ -318,14 +318,12 @@ body{
     line-height: 26px;
 }
 
-.global-news {
-    width: 797px;
-}
-
 .global-news-heading {
     color: #000;
     font-size: 24px;
     font-weight: 500;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .global-news-list {
@@ -349,4 +347,83 @@ body{
     width: 210px;
     height: 165px;
     border-radius: 10px;
+}
+
+.sidebar{
+    margin-top: 43px;
+    margin-left: 10px;
+}
+
+.layout-2-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.layout-2-1-main {
+    width: 797px;
+}
+
+.layout-2-1-sidebar{
+    width: 393px;
+    margin-bottom: 10px;
+}
+
+.sidebar-news-card {
+    background-color: #F6F6F6;
+    border-radius: 15px;
+    padding: 20px 20px 25px 17px ;
+}
+
+.sidebar-news-card-heading {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.sidebar-news-card-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebar-news-card-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sidebar-news-card-item:not(:last-child){
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.sidebar-news-card-item :first-child{
+    padding-top: 0;
+}
+
+.sidebar-news-card-title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.sidebar-news-card-link{
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar-news-card-source-time{
+    color: #5E5F61;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sidebar-ad-img{
+    width: 393px;
+    height: 284px;
 }
