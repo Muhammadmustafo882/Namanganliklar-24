@@ -212,6 +212,10 @@ body{
     opacity: 0.6;
 }
 
+.sitenav-link.active{
+    color: #7296ec;
+}
+
 .sitenav-item {
     font-size: 18px;
     font-weight: 500;
@@ -427,6 +431,11 @@ body{
 .sidebar-ad-img{
     width: 393px;
     height: 284px;
+}
+
+.sidebar-ad-img-big{
+    width: 393px;
+    height: 553px;
 }
 
 .site-footer {
