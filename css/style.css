@@ -1,28 +1,25 @@
-.header-section-top-container,
-body {
-    display: -webkit-box;
-    display: -ms-flexbox;
+:root{
+    --accent-color:#7297ef;
 }
-body,
+
 html {
-    height: 100%;
-}
-.contact-page-form,
-body {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-}
-* {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-}
-:focus {
-    outline: #2959ce dotted 2px;
-    outline-offset: 3px;
-}
-html {
+    height: 100%;
     scroll-behavior: smooth;
 }
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: inherit;
+}
+
+*:focus {
+    outline: dotted 2px var(--accent-color);
+    outline-offset: 3px;
+}
+
 body {
     display: flex;
     background-color: #fff;
@@ -442,7 +439,7 @@ body {
     height: 553px;
 }
 .site-footer {
-    background-color: #7297ef;
+    background-color: var(--accent-color);
     color: #fff;
     padding: 40px 0;
 }
@@ -509,6 +506,7 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
+
 .site-footer-socials-heading {
     margin: 0;
     font-size: 18px;
@@ -516,12 +514,14 @@ body {
     font-weight: 500;
     line-height: 23px;
 }
+
 .contact-page-heading,
 .contact-page-text,
 .contact-page-title {
     font-style: normal;
     line-height: normal;
 }
+
 .site-footer-socials-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -536,26 +536,32 @@ body {
     justify-content: center;
     list-style: none;
 }
+
 .input-form,
 .text-area {
     border-radius: 10px;
     padding: 18px 20px;
 }
+
 .site-footer-socials-img {
     display: block;
 }
+
 .contact-page {
     margin-bottom: 100px;
 }
+
 .contact-page-heading {
     color: #000;
     font-size: 24px;
     font-weight: 500;
 }
+
 .form-fieldset-wrapper:not(:last-child),
 .form-input-wrappe:not(:last-child) {
     margin-bottom: 10px;
 }
+
 .contact-page-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -564,6 +570,7 @@ body {
     -ms-flex-align: start;
     align-items: flex-start;
 }
+
 .contact-page-form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -573,10 +580,12 @@ body {
     width: 696px;
     margin-right: 10px;
 }
+
 .form-input-wrapper {
     margin-bottom: 10px;
     width: 100%;
 }
+
 .form-fieldset-wrapper .form-input-wrapper {
     width: calc(50% - 5px);
     margin: 0;
